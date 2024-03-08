@@ -4,9 +4,9 @@ from pprint import pprint
 import logging
 import time
 
-from ext_libs.pygtkhelpers.ui.extra_dialogs import field_entry_dialog
-from ext_libs.pygtkhelpers.ui.extra_widgets import Enum, Form
-from ext_libs.pygtkhelpers.ui.form_view_dialog import create_form_view
+from pygtkhelpers.ui.extra_dialogs import field_entry_dialog
+from pygtkhelpers.ui.extra_widgets import Enum, Form
+from pygtkhelpers.ui.form_view_dialog import create_form_view
 try:
     import pygst
     pygst.require("0.10")

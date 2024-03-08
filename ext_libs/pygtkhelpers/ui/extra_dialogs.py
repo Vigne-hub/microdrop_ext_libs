@@ -2,11 +2,11 @@ import os
 
 from gi.repository import Gtk
 
-from ext_libs.flatland.schema import String, Form, Integer
-from ext_libs.flatland.validation import ValueAtLeast, ValueAtMost
+from flatland.schema import String, Form, Integer
+from flatland.validation import ValueAtLeast, ValueAtMost
 
 from .form_view_dialog import FormViewDialog
-from ext_libs.pygtkhelpers.ui.dialogs import yesno
+from pygtkhelpers.ui.dialogs import yesno
 
 
 class Defaults(object):

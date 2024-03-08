@@ -10,12 +10,12 @@ from gi.repository import Gtk
 
 from path_helpers import path
 try:
-    from ext_libs.jupyter_helpers.notebook import SessionManager
+    from jupyter_helpers.notebook import SessionManager
 except ImportError:
     print("The NotebookManagerView requires the jupyter-helpers package.", file = sys.stderr)
     raise
 from ..delegates import SlaveView
-from ext_libs.pygtkhelpers.ui.extra_dialogs import yesno
+from pygtkhelpers.ui.extra_dialogs import yesno
 
 
 class NotebookManagerView(SlaveView):

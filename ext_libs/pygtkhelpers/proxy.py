@@ -14,7 +14,7 @@
         >>> import gi
         >>> gi.require_version('Gtk', '3.0')
         >>> from gi.repository import Gtk
-        >>> from microdrop.ext_libs.pygtkhelpers.proxy import proxy_for
+        >>> from microdrop.pygtkhelpers.proxy import proxy_for
         >>> widget = Gtk.Entry()
         >>> proxy = proxy_for(widget)
         >>> proxy

@@ -2,7 +2,7 @@ from matplotlib.backends.backend_gtkagg import FigureCanvasGTKAgg as FigureCanva
 from matplotlib.collections import PatchCollection
 from matplotlib.figure import Figure
 from matplotlib.patches import Polygon
-from ext_libs.pygtkhelpers.delegates import SlaveView
+from pygtkhelpers.delegates import SlaveView
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk

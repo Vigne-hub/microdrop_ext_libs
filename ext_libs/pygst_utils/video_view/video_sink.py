@@ -3,14 +3,14 @@ from datetime import datetime
 import logging
 import sys
 
-from ext_libs.cairo_helpers.surface import composite_surface
+from cairo_helpers.surface import composite_surface
 # from ....dmf_device_ui.options import DebugView # gkreder
-from ext_libs.options import DebugView
+from options import DebugView
 # from opencv_helpers.safe_cv import cv2 # gkreder
 import cv2
-from ext_libs.pygtkhelpers.delegates import SlaveView
-from ext_libs.pygtkhelpers.ui.views.cairo_view import GtkCairoView
-from ext_libs.pygtkhelpers.utils import gsignal, refresh_gui
+from pygtkhelpers.delegates import SlaveView
+from pygtkhelpers.ui.views.cairo_view import GtkCairoView
+from pygtkhelpers.utils import gsignal, refresh_gui
 import cairo
 
 import gi

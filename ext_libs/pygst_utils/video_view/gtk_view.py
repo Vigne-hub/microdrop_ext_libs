@@ -6,7 +6,7 @@ gi.require_version("Gst", "1.0")
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk, GObject
 
-from ext_libs.pygtkhelpers.delegates import SlaveView
+from pygtkhelpers.delegates import SlaveView
 
 # We need to call threads_init() to ensure correct gtk operation with
 # multi-threaded code (needed for GStreamer).

@@ -15,9 +15,9 @@ from gi.repository import Gtk, GObject, Gst, Glib
 
 GObject.threads_init()
 
-from ext_libs.pygst_utils.elements.cairo_draw import CairoDrawBase, CairoDrawQueue
-from ext_libs.pygst_utils.elements.draw_queue import DrawQueue
-from ext_libs.pygst_utils.elements.warp_perspective import WarpBin, grab_frame
+from pygst_utils.elements.cairo_draw import CairoDrawBase, CairoDrawQueue
+from pygst_utils.elements.draw_queue import DrawQueue
+from pygst_utils.elements.warp_perspective import WarpBin, grab_frame
 
 
 def get_pipeline(video_source, bitrate=None, output_path=None, draw_queue=None,

@@ -8,7 +8,7 @@ try:
 except ImportError:
     import pickle
 
-from ext_libs.pygst_utils.bin.server import server_popen
+from pygst_utils.bin.server import server_popen
 
 import zmq
 from serialsocket import SerializingSocket

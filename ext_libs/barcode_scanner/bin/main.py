@@ -38,7 +38,7 @@ def pipeline_command_from_json(json_source):
     # Import here, since importing `gst` before calling `parse_args` causes
     # command-line help to be overridden by GStreamer help.
     with nostderr():
-        from ext_libs.pygst_utils.video_source import VIDEO_SOURCE_PLUGIN, DEVICE_KEY
+        from pygst_utils.video_source import VIDEO_SOURCE_PLUGIN, DEVICE_KEY
 
     # Set `(red|green|blue)_mask` to ensure RGB channel order for both YUY2
     # and I420 video sources.  If this is not done, red and blue channels
@@ -133,12 +133,12 @@ def main(args=None):
         gui_main(pipeline_command)
     elif args.command == 'device_list':
         with nostderr():
-            from ext_libs.pygst_utils.video_source import get_video_source_names
+            from pygst_utils.video_source import get_video_source_names
 
             print('\n'.join(get_video_source_names()))
     elif args.command == 'device_caps':
         with nostderr():
-            from ext_libs.pygst_utils.video_source import (expand_allowed_capabilities,
+            from pygst_utils.video_source import (expand_allowed_capabilities,
                                                   get_allowed_capabilities)
 
             df_allowed_caps = get_allowed_capabilities(args.device_name)

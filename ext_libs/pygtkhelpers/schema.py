@@ -266,13 +266,13 @@ class SchemaDialog(FormViewDialog):
 
 class MetaDataDialog(SchemaDialog):
     def __init__(self, schema, pipeline_command=None, **kwargs):
-        from ext_libs.barcode_scanner.scanner import BarcodeScanner
+        from barcode_scanner.scanner import BarcodeScanner
 
         super(MetaDataDialog, self).__init__(schema, **kwargs)
         self.scanner = BarcodeScanner(pipeline_command)
 
     def create_ui(self):
-        from ext_libs.barcode_scanner.gtk_matplotlib import ScannerView
+        from barcode_scanner.gtk_matplotlib import ScannerView
 
         super(MetaDataDialog, self).create_ui()
         self.scanner_view = ScannerView(self.scanner)
@@ -450,7 +450,7 @@ def schema_dialog(schema, data=None, device_name=None, max_width=None,
         dialog = SchemaDialog(schema, **kwargs)
     else:
         with nostderr():
-            import ext_libs.pygst_utils as pu
+            import pygst_utils as pu
 
         # GTK3 is thread-safe so "Gtk.threads_init() Gdk.threads_init()" are not
         # needed to support threads

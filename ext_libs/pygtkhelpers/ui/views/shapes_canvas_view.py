@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import logging
-from ext_libs.cairo_helpers.surface import flatten_surfaces
-from ext_libs.cairo_helpers.font import aspect_fit_font_size
-from ext_libs.svg_model import svg_shapes_to_df
-from ext_libs.svg_model.shapes_canvas import ShapesCanvas
+from cairo_helpers.surface import flatten_surfaces
+from cairo_helpers.font import aspect_fit_font_size
+from svg_model import svg_shapes_to_df
+from svg_model.shapes_canvas import ShapesCanvas
 import cairo
 
 import gi
@@ -15,7 +15,7 @@ from gi.repository import GLib
 
 import pandas as pd
 
-from ext_libs.pygtkhelpers.ui.views.cairo_view import GtkCairoView
+from pygtkhelpers.ui.views.cairo_view import GtkCairoView
 
 logger = logging.getLogger(__name__)
 

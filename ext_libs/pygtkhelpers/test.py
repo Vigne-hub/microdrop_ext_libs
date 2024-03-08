@@ -24,7 +24,7 @@ class CheckCalled(object):
         >>> import gi
         >>> gi.require_version('Gtk', '3.0')
         >>> from gi.repository import Gtk
-        >>> from microdrop.ext_libs.pygtkhelpers.utils import refresh_gui
+        >>> from microdrop.pygtkhelpers.utils import refresh_gui
         >>> b = Gtk.Button()
         >>> check = CheckCalled(b, 'clicked')
         >>> b.clicked()

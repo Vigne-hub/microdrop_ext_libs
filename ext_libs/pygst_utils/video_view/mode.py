@@ -1,5 +1,5 @@
-from ext_libs.pygtkhelpers.utils import gsignal
-from ext_libs.pygtkhelpers.delegates import SlaveView
+from pygtkhelpers.utils import gsignal
+from pygtkhelpers.delegates import SlaveView
 
 import gi
 

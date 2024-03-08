@@ -146,8 +146,8 @@ class AttrSortCombo(Gtk.HBox):
     def __init__(self, objectlist, attribute_list, default):
         GObject.GObject.__init__(self, spacing=3)
         self.set_border_width(3)
-        from ext_libs.pygtkhelpers.ui.widgets import SimpleComboBox
-        from ext_libs.pygtkhelpers.proxy import GtkComboBoxProxy
+        from pygtkhelpers.ui.widgets import SimpleComboBox
+        from pygtkhelpers.proxy import GtkComboBoxProxy
 
         self._objectlist = objectlist
 

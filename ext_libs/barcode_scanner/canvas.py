@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import logging
 
-from ext_libs.pygtkhelpers.ui.views.cairo_view import GtkCairoView
+from pygtkhelpers.ui.views.cairo_view import GtkCairoView
 import gi
 gi.require_version('Gst', '1.0')
 from gi.repository import Gst
@@ -90,7 +90,7 @@ class BarcodeCanvas(GtkCairoView):
 def source_string(json_source):
     # Import here, since importing `Gst` before calling `parse_args` causes
     # command-line help to be overridden by GStreamer help.
-    from ext_libs.pygst_utils.video_source import VIDEO_SOURCE_PLUGIN, DEVICE_KEY
+    from pygst_utils.video_source import VIDEO_SOURCE_PLUGIN, DEVICE_KEY
 
     # Set `(red|green|blue)_mask` to ensure RGB channel order for both YUY2
     # and I420 video sources.  If this is not done, red and blue channels
@@ -113,7 +113,7 @@ def source_string(json_source):
 
 
 if __name__ == '__main__':
-    from ext_libs.pygst_utils.video_source import VIDEO_SOURCE_PLUGIN, DEVICE_KEY
+    from pygst_utils.video_source import VIDEO_SOURCE_PLUGIN, DEVICE_KEY
 
     canvas = BarcodeCanvas(None)
     canvas.reset()

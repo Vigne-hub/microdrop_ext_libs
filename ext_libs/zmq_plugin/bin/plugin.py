@@ -3,7 +3,7 @@ from multiprocessing import Process
 import logging
 import sys
 
-from ext_libs.zmq_plugin.bin import verify_tornado
+from zmq_plugin.bin import verify_tornado
 verify_tornado()
 import zmq
 from zmq.eventloop import ioloop, zmqstream

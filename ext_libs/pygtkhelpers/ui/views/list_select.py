@@ -1,5 +1,5 @@
-from ext_libs.pygtkhelpers.delegates import SlaveView
-from ext_libs.pygtkhelpers.ui.objectlist import (get_list_store, add_columns, on_edited_dataframe_sync)
+from pygtkhelpers.delegates import SlaveView
+from pygtkhelpers.ui.objectlist import (get_list_store, add_columns, on_edited_dataframe_sync)
 
 
 class ListSelect(SlaveView):

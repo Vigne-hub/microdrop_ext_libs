@@ -65,7 +65,7 @@ def _destroy(obj):
     # XXX: util?
     obj.destroy()
     if not Gtk.main_level():
-        from ext_libs.pygtkhelpers.utils import refresh_gui
+        from pygtkhelpers.utils import refresh_gui
         refresh_gui()
 
 

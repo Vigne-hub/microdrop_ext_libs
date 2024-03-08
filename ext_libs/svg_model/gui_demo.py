@@ -17,8 +17,8 @@ import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gdk
 
-from ext_libs.svg_model.body_group import BodyGroup
-from ext_libs.svg_model.path_group import PathGroup
+from svg_model.body_group import BodyGroup
+from svg_model.path_group import PathGroup
 
 if __name__ == '__main__':
     path_group = PathGroup.load_svg('circles.svg')

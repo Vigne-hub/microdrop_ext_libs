@@ -3,7 +3,7 @@ gi.require_version("Gst", "1.0")
 from gi.repository import GObject, Gst
 from datetime import datetime
 
-from ext_libs.pygtkhelpers.utils import gsignal
+from pygtkhelpers.utils import gsignal
 
 GObject.threads_init()
 

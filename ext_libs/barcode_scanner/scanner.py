@@ -1,7 +1,7 @@
 from datetime import datetime
 import logging
 
-from ext_libs.pygtkhelpers.utils import gsignal
+from pygtkhelpers.utils import gsignal
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import GObject

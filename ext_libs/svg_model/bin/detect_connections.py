@@ -3,7 +3,7 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 import sys
 
-from ext_libs.path_helpers import path
+from path_helpers import path
 
 from .. import remove_layer
 from ..detect_connections import auto_detect_adjacent_shapes

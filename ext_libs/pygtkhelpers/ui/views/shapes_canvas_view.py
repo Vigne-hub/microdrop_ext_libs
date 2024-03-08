@@ -231,7 +231,7 @@ def parse_args(args=None):
     """Parses arguments, returns (options, args)."""
     import sys
     from argparse import ArgumentParser
-    from ext_libs.path_helpers import path
+    from path_helpers import path
 
     if args is None:
         args = sys.argv

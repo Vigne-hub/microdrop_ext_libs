@@ -8,7 +8,7 @@ import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
-from ext_libs.path_helpers import path
+from path_helpers import path
 try:
     from ext_libs.jupyter_helpers.notebook import SessionManager
 except ImportError:

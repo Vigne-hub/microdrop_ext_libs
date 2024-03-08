@@ -26,7 +26,7 @@ import logging
 from ext_libs.microdrop_utility import Version, FutureVersionError
 import numpy as np
 import pandas as pd
-from ext_libs.path_helpers import path
+from path_helpers import path
 from ext_libs.svg_model import INKSCAPE_PPmm
 from ext_libs.svg_model.detect_connections import auto_detect_adjacent_shapes
 from ext_libs.svg_model.draw import draw_shapes_svg_layer

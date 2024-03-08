@@ -6,7 +6,7 @@ import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk, GObject
 
-from ext_libs.path_helpers import path
+from path_helpers import path
 from ext_libs.flatland.schema import String, Form, Integer, Float, Enum
 
 from ..utils import gsignal

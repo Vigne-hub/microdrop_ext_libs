@@ -1,7 +1,7 @@
 # coding: utf-8
 import logging
 
-from ext_libs.path_helpers import path
+from path_helpers import path
 import gi
 gi.require_version("Gst", "1.0")
 from gi.repository import Gst

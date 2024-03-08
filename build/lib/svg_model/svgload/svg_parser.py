@@ -20,7 +20,7 @@ import warnings
 from collections import OrderedDict
 
 from lxml import etree
-from ext_libs.path_helpers import path
+from path_helpers import path
 from .path_parser import PathParser, ParseError
 from ..loop import Loop
 from ..geo_path import Path

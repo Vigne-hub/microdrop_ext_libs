@@ -13,6 +13,7 @@ requirements:
  build:
   - python
   - pip
+  - path-helpers
 
 about:
  home: https://github.com/Vigne-hub/microdrop_ext_libs

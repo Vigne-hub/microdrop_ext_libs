@@ -10,7 +10,7 @@ import sys
 import time
 import webbrowser
 
-from ext_libs.path_helpers import path
+from path_helpers import path
 
 
 def kill_process_tree(pid, including_parent=True):

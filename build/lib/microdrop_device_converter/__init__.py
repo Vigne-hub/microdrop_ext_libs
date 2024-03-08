@@ -1,6 +1,6 @@
 import logging
 
-from ext_libs.path_helpers import path
+from path_helpers import path
 
 from .dmf_device import DmfDevice
 

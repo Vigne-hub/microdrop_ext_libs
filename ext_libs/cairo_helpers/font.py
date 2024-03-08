@@ -1,4 +1,4 @@
-from ext_libs.svg_model import scale_to_fit_a_in_b
+from svg_model import scale_to_fit_a_in_b
 import cairo
 
 

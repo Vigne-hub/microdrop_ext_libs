@@ -117,16 +117,16 @@ class UUID(object):
         UUID(bytes_le='\x78\x56\x34\x12\x34\x12\x78\x56' +
                       '\x12\x34\x56\x78\x12\x34\x56\x78')
         UUID(fields=(0x12345678, 0x1234, 0x5678, 0x12, 0x34, 0x567812345678))
-        UUID(integer=0x12345678123456781234567812345678)
+        UUID(int=0x12345678123456781234567812345678)
 
-        Exactly one of 'hex', 'bytes', 'bytes_le', 'fields', or 'integer' must
+        Exactly one of 'hex', 'bytes', 'bytes_le', 'fields', or 'int' must
         be given.  The 'version' argument is optional; if given, the resulting
         UUID will have its variant and version set according to RFC 4122,
-        overriding the given 'hex', 'bytes', 'bytes_le', 'fields', or 'integer'.
+        overriding the given 'hex', 'bytes', 'bytes_le', 'fields', or 'int'.
         """
 
-        if [hex, bytes, bytes_le, fields, integer].count(None) != 4:
-            raise TypeError('need one of hex, bytes, bytes_le, fields, or integer')
+        if [hex, bytes, bytes_le, fields, int].count(None) != 4:
+            raise TypeError('need one of hex, bytes, bytes_le, fields, or int')
         if hex is not None:
             hex = hex.replace('urn:', '').replace('uuid:', '')
             hex = hex.strip('{}').replace('-', '')

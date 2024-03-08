@@ -5,7 +5,7 @@ from path_helpers import path
 
 def app_data_dir():
     if os.name == 'nt':
-        from win32com.shell import shell, shellcon
+        from win32comext.shell import shell, shellcon
 
         app_dir = shell.SHGetFolderPath(0, shellcon.CSIDL_APPDATA, 0, 0)
     else:
@@ -16,7 +16,7 @@ def app_data_dir():
 
 def home_dir():
     if os.name == 'nt':
-        from win32com.shell import shell, shellcon
+        from win32comext.shell import shell, shellcon
 
         dir = shell.SHGetFolderPath(0, shellcon.CSIDL_PERSONAL, 0, 0)
     else:
@@ -27,7 +27,7 @@ def home_dir():
 
 def common_app_data_dir():
     if os.name == 'nt':
-        from win32com.shell import shell, shellcon
+        from win32comext.shell import shell, shellcon
 
         app_dir = path(shell.SHGetFolderPath(0, shellcon.CSIDL_COMMON_APPDATA, 0, 0))
     else:

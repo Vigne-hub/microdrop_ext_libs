@@ -5,7 +5,7 @@ import re
 import sys
 
 import gi
-from ext_libs.pygtkhelpers.schema import schema_dialog
+from pygtkhelpers.schema import schema_dialog
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 

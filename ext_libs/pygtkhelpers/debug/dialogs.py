@@ -14,8 +14,8 @@ import gi
 from gi.repository import GObject as gobject
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, GObject
-from ext_libs.pygtkhelpers.ui.objectlist import ObjectList, Column
-from ext_libs.pygtkhelpers.utils import MarkupMixin
+from ..ui.objectlist import ObjectList, Column
+from ..utils import MarkupMixin
 
 
 def scrolled(widget, shadow=Gtk.ShadowType.NONE):

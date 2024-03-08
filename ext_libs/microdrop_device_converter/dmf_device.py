@@ -23,17 +23,17 @@ except ImportError:
     import pickle
 import logging
 
-from ext_libs.microdrop_utility import Version, FutureVersionError
+from microdrop_utility import Version, FutureVersionError
 import numpy as np
 import pandas as pd
 from path_helpers import path
-from ext_libs.svg_model import INKSCAPE_PPmm
-from ext_libs.svg_model.detect_connections import auto_detect_adjacent_shapes
-from ext_libs.svg_model.draw import draw_shapes_svg_layer
-from ext_libs.svg_model.geo_path import Path, ColoredPath, Loop
-from ext_libs.svg_model.merge import merge_svg_layers
-from ext_libs.svg_model.path_group import PathGroup
-from ext_libs.svg_model.svgload.path_parser import LoopTracer, ParseError
+from svg_model import INKSCAPE_PPmm
+from svg_model.detect_connections import auto_detect_adjacent_shapes
+from svg_model.draw import draw_shapes_svg_layer
+from svg_model.geo_path import Path, ColoredPath, Loop
+from svg_model.merge import merge_svg_layers
+from svg_model.path_group import PathGroup
+from svg_model.svgload.path_parser import LoopTracer, ParseError
 import yaml
 
 logger = logging.getLogger(__name__)

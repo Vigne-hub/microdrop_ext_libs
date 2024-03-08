@@ -21,7 +21,7 @@ import sys
 import re
 
 from path_helpers import path
-from ext_libs.git_helpers import Git
+from git_helpers import Git
 
 from .set_of_ints import SetOfInts
 

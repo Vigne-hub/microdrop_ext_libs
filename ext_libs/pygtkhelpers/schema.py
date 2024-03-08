@@ -3,7 +3,7 @@ import logging
 import types
 
 from flatland import Boolean, Enum, Float, Form, Integer, String
-from ext_libs.flatland.validation import ValueAtLeast, ValueAtMost
+from flatland.validation import ValueAtLeast, ValueAtMost
 # from redirect_io import nostderr # gkreder
 # import gtk # gkreder
 import gi

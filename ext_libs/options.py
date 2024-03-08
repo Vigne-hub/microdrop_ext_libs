@@ -6,8 +6,8 @@ import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
-from ext_libs.pygtkhelpers.utils import gsignal
-from ext_libs.pygtkhelpers.delegates import SlaveView
+from pygtkhelpers.utils import gsignal
+from pygtkhelpers.delegates import SlaveView
 
 logger = logging.getLogger(__name__)
 

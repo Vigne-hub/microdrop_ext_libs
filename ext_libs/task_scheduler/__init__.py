@@ -1,4 +1,4 @@
-from ..task_scheduler.constraints import *
+from .constraints import *
 
 less_than = lambda x, y: x < y
 greater_than = lambda x, y: x > y

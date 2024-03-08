@@ -16,11 +16,10 @@ import sys
 import pkgutil
 
 import gi
+
 gi.require_version("Gtk", "3.0")
-from gi.repository import Gtk # gkreder
-from gi.repository import GObject # gkreder
-
-
+from gi.repository import Gtk  # gkreder
+from gi.repository import GObject  # gkreder
 
 from .utils import gsignal
 
@@ -165,7 +164,7 @@ class BaseDelegate(GObject.GObject):
             if not data:  # XXX: better debugging of the causes?
                 raise LookupError(self.__class__, self.builder_file)
 
-            builder.add_from_string(data.decode()) # gkreder (added .decode())
+            builder.add_from_string(data.decode())  # gkreder (added .decode())
         else:
             return
         self._toplevel = self.get_builder_toplevel(builder)
@@ -293,5 +292,6 @@ class ToplevelView(BaseDelegate):
 
 class WindowView(ToplevelView):
     """A View that is a Window"""
+
     def set_title(self, title):
         self.widget.set_title(title)

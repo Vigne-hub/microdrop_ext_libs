@@ -57,7 +57,7 @@ lodash license text::
 '''
 import time
 
-from ext_libs.logging_helpers import _L
+from logging_helpers import _L
 
 from ._version import get_versions
 

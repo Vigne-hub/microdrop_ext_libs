@@ -1,0 +1,136 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CheckDtdRefs" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="CheckTagEmptyBody" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CheckValidXmlInScriptTagBody" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="82" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="ES6TopLevelAwaitExpression" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
+    <inspection_tool class="HtmlRequiredLangAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HttpUrlsUsage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JupyterPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="LossyEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownIncorrectTableFormatting" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownIncorrectlyNumberedListItem" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownLinkDestinationWithSpaces" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownNoTableBorders" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownOutdatedTableOfContents" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownUnresolvedFileReference" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownUnresolvedHeaderReference" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MarkdownUnresolvedLinkLabel" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MsOrderByInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="PyAsyncCallInspection" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+      <option name="ourVersions">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="3.8" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="54">
+            <item index="0" class="java.lang.String" itemvalue="run-exe" />
+            <item index="1" class="java.lang.String" itemvalue="networkx" />
+            <item index="2" class="java.lang.String" itemvalue="ipython-helpers" />
+            <item index="3" class="java.lang.String" itemvalue="zmq-plugin" />
+            <item index="4" class="java.lang.String" itemvalue="flatland-fork" />
+            <item index="5" class="java.lang.String" itemvalue="paver" />
+            <item index="6" class="java.lang.String" itemvalue="path-helpers" />
+            <item index="7" class="java.lang.String" itemvalue="pyutilib.component.core" />
+            <item index="8" class="java.lang.String" itemvalue="si-prefix" />
+            <item index="9" class="java.lang.String" itemvalue="pyzmq" />
+            <item index="10" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="11" class="java.lang.String" itemvalue="blinker" />
+            <item index="12" class="java.lang.String" itemvalue="scipy" />
+            <item index="13" class="java.lang.String" itemvalue="microdrop-plugin-template" />
+            <item index="14" class="java.lang.String" itemvalue="tornado" />
+            <item index="15" class="java.lang.String" itemvalue="microdrop-device-converter" />
+            <item index="16" class="java.lang.String" itemvalue="wheeler.pygtkhelpers" />
+            <item index="17" class="java.lang.String" itemvalue="application_repository" />
+            <item index="18" class="java.lang.String" itemvalue="svg-model" />
+            <item index="19" class="java.lang.String" itemvalue="ipython" />
+            <item index="20" class="java.lang.String" itemvalue="droplet-planning" />
+            <item index="21" class="java.lang.String" itemvalue="microdrop_utility" />
+            <item index="22" class="java.lang.String" itemvalue="pygtk_textbuffer_with_undo" />
+            <item index="23" class="java.lang.String" itemvalue="jinja2" />
+            <item index="24" class="java.lang.String" itemvalue="pandas" />
+            <item index="25" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="26" class="java.lang.String" itemvalue="svgwrite" />
+            <item index="27" class="java.lang.String" itemvalue="pyutilib.component.loader" />
+            <item index="28" class="java.lang.String" itemvalue="task_scheduler" />
+            <item index="29" class="java.lang.String" itemvalue="pip-helpers" />
+            <item index="30" class="java.lang.String" itemvalue="geo-util" />
+            <item index="31" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="32" class="java.lang.String" itemvalue="configobj" />
+            <item index="33" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="34" class="java.lang.String" itemvalue="gi" />
+            <item index="35" class="java.lang.String" itemvalue="GObject" />
+            <item index="36" class="java.lang.String" itemvalue="Gtk" />
+            <item index="37" class="java.lang.String" itemvalue="Gdk" />
+            <item index="38" class="java.lang.String" itemvalue="GObj" />
+            <item index="39" class="java.lang.String" itemvalue="GObjet" />
+            <item index="40" class="java.lang.String" itemvalue="G" />
+            <item index="41" class="java.lang.String" itemvalue="GObje" />
+            <item index="42" class="java.lang.String" itemvalue="GO" />
+            <item index="43" class="java.lang.String" itemvalue="GOb" />
+            <item index="44" class="java.lang.String" itemvalue="mistune" />
+            <item index="45" class="java.lang.String" itemvalue="numpy" />
+            <item index="46" class="java.lang.String" itemvalue="pygobject" />
+            <item index="47" class="java.lang.String" itemvalue="jsonschema" />
+            <item index="48" class="java.lang.String" itemvalue="pymunk" />
+            <item index="49" class="java.lang.String" itemvalue="arrow" />
+            <item index="50" class="java.lang.String" itemvalue="cairo" />
+            <item index="51" class="java.lang.String" itemvalue="lxml" />
+            <item index="52" class="java.lang.String" itemvalue="psutil" />
+            <item index="53" class="java.lang.String" itemvalue="ntfsutils" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="gi.repository.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyVulnerableApiCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RequiredAttributes" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="myAdditionalRequiredHtmlAttributes" value="" />
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="UnresolvedReference" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="XmlDefaultAttributeValue" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="XmlDeprecatedElement" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="XmlDuplicatedId" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="XmlHighlighting" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="XmlInvalidId" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="XmlPathReference" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="XmlUnboundNsPrefix" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="XmlUnusedNamespaceDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="XmlWrongRootElement" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>

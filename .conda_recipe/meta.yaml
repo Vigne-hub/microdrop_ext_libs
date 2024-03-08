@@ -1,0 +1,20 @@
+source:
+  path: ..
+
+package:
+  name: microdrop_ext_libs
+  version: 0.2.alpha
+
+build:
+  script:
+   - python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+ build:
+  - python
+  - pip
+
+about:
+ home: https://github.com/Vigne-hub/microdrop_ext_libs
+ license: BSD
+

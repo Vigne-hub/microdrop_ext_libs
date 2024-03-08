@@ -1,0 +1,16 @@
+barcode_scanner
+cairo_helpers
+debounce
+flatland
+git_helpers
+jupyter_helpers
+logging_helpers
+markdown2pango
+microdrop_device_converter
+microdrop_utility
+path_helpers
+pygst_utils
+pygtkhelpers
+svg_model
+task_scheduler
+zmq_plugin
